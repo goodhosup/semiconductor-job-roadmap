@@ -56,7 +56,7 @@ sed -i.bak \
 git add -A
 git commit -m "Initial book: 반도체 직무 로드맵" || true
 gh repo create "$REPO" --public --source=. --push \
-  --description "반도체 직무 로드맵: 삼성전자 DS부문 취업 준비 가이드 (비공식)"
+  --description "반도체 직무 로드맵: 삼성전자 DS부문 신입·경력 지원 가이드 (비공식)"
 
 gh api -X POST "repos/${LOGIN}/${REPO}/pages" -f build_type=workflow >/dev/null 2>&1 \
   || gh api -X PUT "repos/${LOGIN}/${REPO}/pages" -f build_type=workflow >/dev/null
