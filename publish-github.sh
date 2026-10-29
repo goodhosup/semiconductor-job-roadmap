@@ -54,9 +54,9 @@ sed -i.bak \
 
 [ -d .git ] || git init -b main
 git add -A
-git commit -m "Initial book: 반도체 직무 로드맵" || true
+git commit -m "Initial book: 웨이퍼 위에 꿈을 새기다" || true
 gh repo create "$REPO" --public --source=. --push \
-  --description "반도체 직무 로드맵: 삼성전자 DS부문 신입·경력 지원 가이드 (비공식)"
+  --description "웨이퍼 위에 꿈을 새기다: 삼성전자 DS부문 신입·경력 지원 가이드 (비공식)"
 
 gh api -X POST "repos/${LOGIN}/${REPO}/pages" -f build_type=workflow >/dev/null 2>&1 \
   || gh api -X PUT "repos/${LOGIN}/${REPO}/pages" -f build_type=workflow >/dev/null
