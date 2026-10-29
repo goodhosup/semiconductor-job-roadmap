@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="반도체가 만들어지는 흐름과 DS부문 조직" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>반도체가 만들어지는 흐름과 DS부문 조직</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+<rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="24" y="30.0" font-size="19" fill="#1f2937" text-anchor="start" font-weight="700" dominant-baseline="middle">반도체가 만들어지는 흐름</text>
+<text x="24" y="56.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">단계마다 주로 맡는 조직</text>
+<rect x="24" y="90" width="118" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="83.0" y="116.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">설계</text>
+<text x="83.0" y="138.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">회로·칩 구조</text>
+<line x1="144" y1="125" x2="166" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="168" y="90" width="118" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="227.0" y="116.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">마스크</text>
+<text x="227.0" y="138.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">패턴 원판</text>
+<line x1="288" y1="125" x2="310" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="312" y="90" width="118" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="371.0" y="116.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">전공정</text>
+<text x="371.0" y="138.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">웨이퍼 위 회로</text>
+<line x1="432" y1="125" x2="454" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="456" y="90" width="118" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="515.0" y="116.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">EDS</text>
+<text x="515.0" y="138.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">웨이퍼 검사</text>
+<line x1="576" y1="125" x2="598" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="600" y="90" width="118" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="659.0" y="116.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">패키지</text>
+<text x="659.0" y="138.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">조립·보호</text>
+<line x1="720" y1="125" x2="742" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="744" y="90" width="118" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="803.0" y="116.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">최종 테스트</text>
+<text x="803.0" y="138.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">출하 전 검사</text>
+<rect x="24" y="185" width="118" height="44" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="83.0" y="199.6" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">메모리·S.LSI</text><text x="83.0" y="214.6" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">SAIT</text>
+<rect x="168" y="185" width="406" height="44" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="371.0" y="207.0" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">메모리 · Foundry · CTO 반도체연구소</text>
+<rect x="600" y="185" width="262" height="44" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+<text x="731.0" y="207.0" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">TSP총괄</text>
+<rect x="24" y="242" width="838" height="40" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+<text x="443.0" y="262.0" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">모든 단계를 받치는 기반: 글로벌 제조&amp;인프라총괄(전력·물·가스·안전) · AX/PI센터(AI·IT)</text>
+</svg>

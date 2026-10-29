@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="880" height="270" role="img" aria-label="HBM 적층 구조" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>HBM 적층 구조</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+<rect x="0.5" y="0.5" width="879" height="269" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="24" y="30.0" font-size="19" fill="#1f2937" text-anchor="start" font-weight="700" dominant-baseline="middle">HBM: DRAM을 쌓고 관통 전극(TSV)으로 연결</text>
+<text x="24" y="56.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">개념을 단순화한 단면도</text>
+<rect x="60" y="226" width="760" height="22" rx="4" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="440" y="237.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">패키지 기판</text>
+<rect x="90" y="202" width="700" height="22" rx="4" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+<text x="440" y="213.0" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="400" dominant-baseline="middle">인터포저 (칩끼리 연결하는 중간 기판)</text>
+<rect x="120" y="170" width="300" height="22" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="270" y="181.0" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">DRAM 칩 1</text>
+<rect x="120" y="144" width="300" height="22" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="270" y="155.0" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">DRAM 칩 2</text>
+<rect x="120" y="118" width="300" height="22" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="270" y="129.0" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">DRAM 칩 3</text>
+<rect x="120" y="92" width="300" height="22" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="270" y="103.0" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">DRAM 칩 4</text>
+<rect x="120" y="196" width="300" height="6" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+<line x1="170" y1="96" x2="170" y2="202" stroke="#d97706" stroke-width="3"/>
+<line x1="230" y1="96" x2="230" y2="202" stroke="#d97706" stroke-width="3"/>
+<line x1="310" y1="96" x2="310" y2="202" stroke="#d97706" stroke-width="3"/>
+<line x1="370" y1="96" x2="370" y2="202" stroke="#d97706" stroke-width="3"/>
+<text x="440" y="110.0" font-size="12" fill="#d97706" text-anchor="start" font-weight="600" dominant-baseline="middle">주황색 선 = TSV</text>
+<rect x="500" y="130" width="260" height="70" rx="6" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="630" y="165.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">GPU / AI 가속기</text>
+</svg>

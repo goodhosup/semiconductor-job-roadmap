@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="단위 공정이 반복되는 구조" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>단위 공정이 반복되는 구조</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+<rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="24" y="30.0" font-size="19" fill="#1f2937" text-anchor="start" font-weight="700" dominant-baseline="middle">단위 공정은 한 번이 아니라 수십~수백 번 반복돼요</text>
+<text x="24" y="56.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">한 층을 만들 때마다 아래 순환을 거칩니다</text>
+<rect x="268" y="86" width="124" height="44" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="330.0" y="108.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">증착</text>
+<rect x="399.20000000000005" y="168" width="124" height="44" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="461.20000000000005" y="190.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">포토(노광)</text>
+<rect x="268" y="250" width="124" height="44" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="330.0" y="272.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">식각</text>
+<rect x="136.79999999999998" y="168" width="124" height="44" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="198.79999999999998" y="190.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">세정·검사</text>
+<path d="M 394 108 Q 461.20000000000005 108 461.20000000000005 166" fill="none" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M 461.20000000000005 214 Q 461.20000000000005 272 394 272" fill="none" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M 266 272 Q 198.79999999999998 272 198.79999999999998 214" fill="none" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M 198.79999999999998 166 Q 198.79999999999998 108 266 108" fill="none" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<text x="330" y="190.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="700" dominant-baseline="middle">한 층</text>
+<rect x="600" y="110" width="256" height="160" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="728" y="132.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">공정기술 엔지니어의 관점</text>
+<text x="616" y="164.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 목표: 두께·모양·위치를 정확하게</text>
+<text x="616" y="194.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 안정: 매번 같은 결과(SPC)</text>
+<text x="616" y="224.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 속도: 더 빨리, 더 많이(생산성)</text>
+</svg>

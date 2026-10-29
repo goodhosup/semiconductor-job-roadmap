@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-label="반도체 공장 건물 단면" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>반도체 공장 건물 단면</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+<rect x="0.5" y="0.5" width="879" height="319" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="24" y="30.0" font-size="19" fill="#1f2937" text-anchor="start" font-weight="700" dominant-baseline="middle">반도체 공장(팹) 건물은 층마다 역할이 달라요</text>
+<text x="24" y="56.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">개념을 단순화한 단면도</text>
+<rect x="60" y="80" width="560" height="40" rx="4" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="340" y="100.0" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">공조 설비층: 필터를 거친 깨끗한 공기를 아래로 불어 줌</text>
+<rect x="60" y="124" width="560" height="70" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="340" y="159.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">클린룸: 장비와 웨이퍼가 있는 생산 공간</text>
+<line x1="90" y1="126" x2="90" y2="186" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="130" y1="126" x2="130" y2="186" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="550" y1="126" x2="550" y2="186" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="590" y1="126" x2="590" y2="186" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="60" y="198" width="560" height="70" rx="4" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+<text x="340" y="233.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">하부 유틸리티층: 배관·전력·배기·펌프</text>
+<rect x="60" y="272" width="560" height="30" rx="4" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="340" y="287.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">기초·진동 관리 구조</text>
+<rect x="650" y="80" width="206" height="222" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="753" y="102.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">공장으로 공급되는 것</text>
+<text x="670" y="134.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 전력 (수변전)</text>
+<text x="670" y="166.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 초순수 (UPW)</text>
+<text x="670" y="198.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 특수·벌크 가스</text>
+<text x="670" y="230.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 화학 약품</text>
+<text x="670" y="262.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">• 냉각수·압축 공기</text>
+</svg>
