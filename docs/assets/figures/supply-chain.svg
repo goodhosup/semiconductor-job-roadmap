@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="반도체 공급망과 사업 직무" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>반도체 공급망과 사업 직무</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+<rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="24" y="30.0" font-size="19" fill="#1f2937" text-anchor="start" font-weight="700" dominant-baseline="middle">반도체 공급망과 사업·지원 직무가 일하는 지점</text>
+<rect x="24" y="90" width="170" height="70" rx="10" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="109.0" y="116.3" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">소재·장비</text><text x="109.0" y="133.8" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">협력사</text>
+<line x1="196" y1="125" x2="240" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="242" y="90" width="170" height="70" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="327.0" y="116.3" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">웨이퍼 제조</text><text x="327.0" y="133.8" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">(팹)</text>
+<line x1="414" y1="125" x2="458" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="460" y="90" width="170" height="70" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+<text x="545.0" y="116.3" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">조립·테스트</text><text x="545.0" y="133.8" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">(TSP·OSAT)</text>
+<line x1="632" y1="125" x2="676" y2="125" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="678" y="90" width="170" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="763.0" y="125.0" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">고객사</text>
+<rect x="24" y="184" width="170" height="36" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="109.0" y="202.0" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="700" dominant-baseline="middle">구매</text>
+<rect x="242" y="184" width="388" height="36" rx="8" fill="#ffffff" stroke="#0d9488" stroke-width="2"/>
+<text x="436.0" y="202.0" font-size="13" fill="#0d9488" text-anchor="middle" font-weight="700" dominant-baseline="middle">생산관리: 계획·일정·재고</text>
+<rect x="678" y="184" width="170" height="36" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+<text x="763.0" y="202.0" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="700" dominant-baseline="middle">영업마케팅</text>
+<rect x="24" y="236" width="824" height="40" rx="8" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="436.0" y="256.0" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="600" dominant-baseline="middle">경영지원(재무·일반)·인사: 전체 흐름의 돈·계획·사람을 지원</text>
+</svg>

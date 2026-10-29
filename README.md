@@ -29,3 +29,13 @@ mkdocs serve        # http://127.0.0.1:8000
 - 직무 장: `templates/job-chapter.md`를 복사해서 씁니다. 샘플: `docs/02-jobs/design/circuit-design.md`
 - 사업부 장: `templates/division-chapter.md`를 복사해서 씁니다. 샘플: `docs/01-divisions/memory.md`
 - 공식 사이트 문장은 복사하지 않고 직접 다시 씁니다. 각 장 상단에 확인 기준일을 적습니다.
+
+## 그림 고치기
+
+책의 도식은 모두 직접 만든 SVG이며 `docs/assets/figures/`에 있습니다. 그림을 고치려면 `tools/figures/figs.py`를 수정한 뒤 아래 명령으로 다시 만드세요.
+
+```bash
+python3 tools/figures/figs.py docs/assets/figures
+```
+
+위키독스에 올릴 때는 같은 SVG 파일을 각 페이지에 이미지로 업로드하면 됩니다.

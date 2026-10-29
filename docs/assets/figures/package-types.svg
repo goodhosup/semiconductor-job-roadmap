@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="패키지 종류 비교" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>패키지 종류 비교</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+<rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="24" y="30.0" font-size="19" fill="#1f2937" text-anchor="start" font-weight="700" dominant-baseline="middle">패키지는 이렇게 발전했어요</text>
+<text x="24" y="56.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="400" dominant-baseline="middle">왼쪽에서 오른쪽으로 갈수록 연결이 짧고 촘촘해집니다</text>
+<rect x="24" y="74" width="198" height="206" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="123" y="96.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">와이어 본딩</text>
+<rect x="44" y="236" width="158" height="16" rx="3" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<rect x="84" y="196" width="78" height="30" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<path d="M 88 198 Q 64 170 58 236" fill="none" stroke="#d97706" stroke-width="2"/>
+<path d="M 158 198 Q 182 170 188 236" fill="none" stroke="#d97706" stroke-width="2"/>
+<text x="123" y="266.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">가는 금속선으로 연결</text>
+<rect x="236" y="74" width="198" height="206" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="335" y="96.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">플립칩</text>
+<rect x="256" y="236" width="158" height="16" rx="3" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<rect x="286" y="200" width="98" height="28" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<circle cx="296" cy="232" r="4" fill="#d97706"/>
+<circle cx="316" cy="232" r="4" fill="#d97706"/>
+<circle cx="336" cy="232" r="4" fill="#d97706"/>
+<circle cx="356" cy="232" r="4" fill="#d97706"/>
+<circle cx="376" cy="232" r="4" fill="#d97706"/>
+<text x="335" y="266.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">칩을 뒤집어 범프로 연결</text>
+<rect x="448" y="74" width="198" height="206" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="547" y="96.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">2.5D (인터포저)</text>
+<rect x="468" y="236" width="158" height="16" rx="3" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<rect x="478" y="216" width="138" height="16" rx="3" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+<rect x="486" y="188" width="54" height="26" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="552" y="180" width="56" height="34" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="547" y="266.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">칩 여러 개를 나란히</text>
+<rect x="660" y="74" width="198" height="206" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="759" y="96.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">3D 적층</text>
+<rect x="680" y="236" width="158" height="16" rx="3" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+<rect x="720" y="204" width="78" height="24" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="720" y="176" width="78" height="24" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="720" y="148" width="78" height="24" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="720" y="120" width="78" height="24" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<line x1="740" y1="124" x2="740" y2="234" stroke="#d97706" stroke-width="3"/>
+<line x1="778" y1="124" x2="778" y2="234" stroke="#d97706" stroke-width="3"/>
+<text x="759" y="266.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">칩을 쌓고 TSV로 관통 연결</text>
+</svg>

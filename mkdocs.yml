@@ -24,6 +24,9 @@ theme:
 plugins:
   - search:
       lang: [ko, en]
+  - glightbox:
+      zoomable: true
+      skip_classes: [no-zoom]
 markdown_extensions:
   - tables
   - toc:

@@ -17,6 +17,8 @@
 | 쓰이는 곳 | 시스템의 "작업 공간" (메인 메모리) | 사진·앱·OS를 담는 "창고" (SSD, 모바일 저장장치) |
 | 기본 구조 | 트랜지스터 1개 + 커패시터 1개 (1T1C) | 전하를 가두는 셀을 수직으로 쌓은 구조 (V-NAND) |
 
+![DRAM 1T1C 셀과 3D NAND 적층 구조 비교](../assets/figures/memory-dram-nand.svg)
+
 제품은 쓰임새에 따라 더 세분화됩니다.
 
 - **서버·PC용 DRAM**: DDR 계열 규격
@@ -24,6 +26,8 @@
 - **그래픽용 DRAM**: 대역폭을 높인 GDDR 계열
 - **HBM (High Bandwidth Memory)**: DRAM 칩 여러 개를 수직으로 쌓고 관통 전극(TSV)으로 연결해 대역폭을 크게 높인 제품. AI 가속기 수요와 함께 중요해졌습니다.
 - **SSD·모바일 스토리지**: NAND에 컨트롤러와 펌웨어를 더한 저장장치 제품
+
+![HBM 적층 구조와 TSV](../assets/figures/memory-hbm.svg)
 
 ## 꼭 알아야 할 기술 키워드
 

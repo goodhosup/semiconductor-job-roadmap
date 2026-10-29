@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="반도체 사업 모델 세 가지" font-family="'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>반도체 사업 모델 세 가지</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+<rect x="0.5" y="0.5" width="879" height="249" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="24" y="30.0" font-size="19" fill="#1f2937" text-anchor="start" font-weight="700" dominant-baseline="middle">반도체 사업 모델 세 가지</text>
+<rect x="24" y="70" width="250" height="160" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="149" y="92.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">종합반도체기업 (IDM)</text>
+<rect x="44" y="112" width="210" height="40" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="149.0" y="132.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">설계</text>
+<line x1="149" y1="154" x2="149" y2="170" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="44" y="172" width="210" height="40" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="149.0" y="192.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">생산</text>
+<text x="149" y="222.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">예: 메모리사업부</text>
+<rect x="300" y="70" width="556" height="160" rx="10" fill="#f8fafc" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="578" y="92.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="700" dominant-baseline="middle">팹리스 + 파운드리 (분업)</text>
+<rect x="330" y="120" width="200" height="60" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="430.0" y="141.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">팹리스</text>
+<text x="430.0" y="163.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">설계만 담당</text>
+<rect x="626" y="120" width="200" height="60" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="726.0" y="141.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="600" dominant-baseline="middle">파운드리</text>
+<text x="726.0" y="163.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">생산만 담당</text>
+<line x1="532" y1="140" x2="624" y2="140" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<text x="578" y="128.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">설계 도면</text>
+<line x1="624" y1="165" x2="532" y2="165" stroke="#4b5563" stroke-width="2" marker-end="url(#ah)"/>
+<text x="578" y="178.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">완성된 칩</text>
+<text x="430" y="205.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">예: S.LSI사업부(공식 소개 기준)</text>
+<text x="726" y="205.0" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="400" dominant-baseline="middle">예: Foundry사업부</text>
+</svg>
