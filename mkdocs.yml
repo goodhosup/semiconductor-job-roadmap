@@ -1,0 +1,85 @@
+site_name: "반도체 직무 로드맵"
+site_description: "삼성전자 DS부문 취업 준비 가이드 (비공식)"
+site_url: https://goodhosup.github.io/semiconductor-job-roadmap/
+repo_url: https://github.com/goodhosup/semiconductor-job-roadmap
+docs_dir: docs
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle: {icon: material/brightness-7, name: 다크 모드}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle: {icon: material/brightness-4, name: 라이트 모드}
+plugins:
+  - search:
+      lang: [ko, en]
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+  - 들어가며:
+      - index.md
+      - 00-intro/how-to-read.md
+      - 00-intro/semiconductor-overview.md
+  - 1부. 사업부 이해:
+      - 01-divisions/index.md
+      - 01-divisions/memory.md
+      - 01-divisions/slsi.md
+      - 01-divisions/foundry.md
+      - 01-divisions/cto-semiconductor.md
+      - 01-divisions/manufacturing-infra.md
+      - 01-divisions/tsp.md
+      - 01-divisions/ax-pi.md
+      - 01-divisions/css.md
+      - 01-divisions/sait.md
+  - 2부. 직무 이해와 학습 전략:
+      - 02-jobs/index.md
+      - 설계/개발:
+          - 02-jobs/design/circuit-design.md
+          - 02-jobs/design/test-analysis.md
+          - 02-jobs/design/signal-system.md
+          - 02-jobs/design/cae-simulation.md
+          - 02-jobs/design/package.md
+          - 02-jobs/design/mechanical.md
+          - 02-jobs/design/software.md
+      - 공정/설비:
+          - 02-jobs/process/process-integration.md
+          - 02-jobs/process/process-engineering.md
+          - 02-jobs/process/equipment.md
+          - 02-jobs/process/production-management.md
+      - 사업/지원:
+          - 02-jobs/business/sales-marketing.md
+          - 02-jobs/business/finance.md
+          - 02-jobs/business/general-management.md
+          - 02-jobs/business/hr.md
+          - 02-jobs/business/purchasing.md
+      - 인프라/안전:
+          - 02-jobs/infra/infra-facility.md
+          - 02-jobs/infra/infra-gas-chemical.md
+          - 02-jobs/infra/environment.md
+          - 02-jobs/infra/safety-health.md
+  - 3부. 나에게 맞는 직무 찾기:
+      - 03-job-matching/index.md
+      - 03-job-matching/major-matrix.md
+      - 03-job-matching/self-check.md
+      - 03-job-matching/non-major.md
+  - 4부. 복리후생: 04-benefits/index.md
+  - 5부. 채용 준비: 05-recruiting/index.md
+  - 부록:
+      - appendix/glossary.md
+      - appendix/resources.md
+      - appendix/study-tracker.md
