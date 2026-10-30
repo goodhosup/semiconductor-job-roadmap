@@ -21,8 +21,18 @@ mkdocs serve        # http://127.0.0.1:8000
 
 ## 위키독스로 발행하기
 
-원고는 `docs/` 하나만 고칩니다. 위키독스에는 `mkdocs.yml`의 `nav` 순서대로 페이지를 만들고 각 `.md` 내용을 붙여넣습니다.
-위키독스와 호환되도록 MkDocs 전용 문법(`!!!` 박스, 탭)은 쓰지 않습니다. 장끼리 연결하는 상대 링크는 위키독스에서 페이지 링크로 바꿔야 합니다.
+`tools/wikidocs_sync.py`가 `docs/` 원고를 위키독스 책으로 올리고, 다음부터는 같은 페이지를 수정합니다.
+
+1. https://wikidocs.net/profile/edit/token 에서 API 토큰을 발급합니다.
+2. 저장소 루트에서 실행합니다. 토큰을 물어보면 붙여넣습니다(화면에 표시되지 않음).
+   ```bash
+   python3 tools/wikidocs_sync.py
+   ```
+3. 생성된 `tools/wikidocs/map.json`을 커밋합니다. 이 파일이 있어야 다음 실행 때 같은 페이지를 수정합니다.
+
+- 목차 순서는 `mkdocs.yml`의 `nav`를 따르고, 장끼리의 링크는 위키독스 페이지 주소로 바뀝니다.
+- 그림은 `tools/wikidocs/png/`의 PNG를 올립니다. 도식을 고쳤다면 `node tools/figures/svg2png.js docs/assets/figures tools/wikidocs/png`로 PNG도 다시 만드세요(Playwright 필요).
+- 올리기 전에 `python3 tools/wikidocs_sync.py --dry-run`으로 변환 결과를 `tools/wikidocs/preview/`에서 확인할 수 있습니다.
 
 ## 새 장 쓰기
 
