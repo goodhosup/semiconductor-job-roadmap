@@ -1,0 +1,123 @@
+{
+  "book_id": 21934,
+  "images": {
+    "analysis-loop.png": {
+      "sha": "5384f01299e5",
+      "url": "https://static.wikidocs.net/images/page/468253/analysis-loop.png"
+    },
+    "cae-loop.png": {
+      "sha": "e6d6064d5124",
+      "url": "https://static.wikidocs.net/images/page/468255/cae-loop.png"
+    },
+    "circuit-design-flow.png": {
+      "sha": "9fccc51dd929",
+      "url": "https://static.wikidocs.net/images/page/468252/circuit-design-flow.png"
+    },
+    "ds-org-map.png": {
+      "sha": "04f494812ece",
+      "url": "https://static.wikidocs.net/images/page/468240/ds-org-map.png"
+    },
+    "fab-layers.png": {
+      "sha": "321c526a4ca0",
+      "url": "https://static.wikidocs.net/images/page/468245/fab-layers.png"
+    },
+    "memory-dram-nand.png": {
+      "sha": "f518d650aec9",
+      "url": "https://static.wikidocs.net/images/page/468241/memory-dram-nand.png"
+    },
+    "memory-hbm.png": {
+      "sha": "3a3e1bf6106f",
+      "url": "https://static.wikidocs.net/images/page/468241/memory-hbm.png"
+    },
+    "overview-8-processes.png": {
+      "sha": "5a8e11470dee",
+      "url": "https://static.wikidocs.net/images/page/468239/overview-8-processes.png"
+    },
+    "overview-business-models.png": {
+      "sha": "8e2199046cd8",
+      "url": "https://static.wikidocs.net/images/page/468239/overview-business-models.png"
+    },
+    "overview-value-chain.png": {
+      "sha": "a82788120954",
+      "url": "https://static.wikidocs.net/images/page/468239/overview-value-chain.png"
+    },
+    "package-types.png": {
+      "sha": "2d0b38349295",
+      "url": "https://static.wikidocs.net/images/page/468246/package-types.png"
+    },
+    "process-cycle.png": {
+      "sha": "0ecd9bc24c21",
+      "url": "https://static.wikidocs.net/images/page/468261/process-cycle.png"
+    },
+    "recruiting-flow.png": {
+      "sha": "5966cdf8db9a",
+      "url": "https://static.wikidocs.net/images/page/468280/recruiting-flow.png"
+    },
+    "roadmap-4steps.png": {
+      "sha": "6967b65fe05b",
+      "url": "https://static.wikidocs.net/images/page/468238/roadmap-4steps.png"
+    },
+    "signal-system-flow.png": {
+      "sha": "c52983efeff1",
+      "url": "https://static.wikidocs.net/images/page/468254/signal-system-flow.png"
+    },
+    "supply-chain.png": {
+      "sha": "d9375b208061",
+      "url": "https://static.wikidocs.net/images/page/468263/supply-chain.png"
+    },
+    "transistor-structures.png": {
+      "sha": "034075ed7c35",
+      "url": "https://static.wikidocs.net/images/page/468243/transistor-structures.png"
+    }
+  },
+  "pages": {
+    "00-intro/how-to-read.md": 468238,
+    "00-intro/semiconductor-overview.md": 468239,
+    "01-divisions/ax-pi.md": 468247,
+    "01-divisions/css.md": 468248,
+    "01-divisions/cto-semiconductor.md": 468244,
+    "01-divisions/foundry.md": 468243,
+    "01-divisions/index.md": 468240,
+    "01-divisions/manufacturing-infra.md": 468245,
+    "01-divisions/memory.md": 468241,
+    "01-divisions/sait.md": 468249,
+    "01-divisions/slsi.md": 468242,
+    "01-divisions/tsp.md": 468246,
+    "02-jobs/business/finance.md": 468266,
+    "02-jobs/business/general-management.md": 468267,
+    "02-jobs/business/hr.md": 468268,
+    "02-jobs/business/purchasing.md": 468269,
+    "02-jobs/business/sales-marketing.md": 468265,
+    "02-jobs/design/cae-simulation.md": 468255,
+    "02-jobs/design/circuit-design.md": 468252,
+    "02-jobs/design/mechanical.md": 468257,
+    "02-jobs/design/package.md": 468256,
+    "02-jobs/design/signal-system.md": 468254,
+    "02-jobs/design/software.md": 468258,
+    "02-jobs/design/test-analysis.md": 468253,
+    "02-jobs/index.md": 468250,
+    "02-jobs/infra/environment.md": 468273,
+    "02-jobs/infra/infra-facility.md": 468271,
+    "02-jobs/infra/infra-gas-chemical.md": 468272,
+    "02-jobs/infra/safety-health.md": 468274,
+    "02-jobs/process/equipment.md": 468262,
+    "02-jobs/process/process-engineering.md": 468261,
+    "02-jobs/process/process-integration.md": 468260,
+    "02-jobs/process/production-management.md": 468263,
+    "03-job-matching/index.md": 468275,
+    "03-job-matching/major-matrix.md": 468276,
+    "03-job-matching/non-major.md": 468278,
+    "03-job-matching/self-check.md": 468277,
+    "04-benefits/index.md": 468279,
+    "05-recruiting/index.md": 468280,
+    "appendix/glossary.md": 468282,
+    "appendix/resources.md": 468283,
+    "appendix/study-tracker.md": 468284,
+    "index.md": 468237,
+    "section:/부록": 468281,
+    "section:02-jobs/index.md/공정/설비": 468259,
+    "section:02-jobs/index.md/사업/지원": 468264,
+    "section:02-jobs/index.md/설계/개발": 468251,
+    "section:02-jobs/index.md/인프라/안전": 468270
+  }
+}

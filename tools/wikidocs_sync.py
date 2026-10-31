@@ -82,7 +82,15 @@ class Api:
         return self._req("GET", "/auth/me/")
 
     def create_book(self, subject, summary):
-        return self._req("POST", "/books/create/", {"subject": subject, "summary": summary, "open_yn": "Y", "book_type": "B"}, files={})
+        res = self._req("POST", "/books/create/", {"subject": subject, "summary": summary, "open_yn": "Y", "book_type": "B"}, files={})
+        # 응답 스키마가 명시돼 있지 않아, id가 없으면 내 책 목록에서 같은 제목을 찾습니다.
+        book_id = res.get("id") or res.get("book_id")
+        if not book_id and not self.dry:
+            found = [b["id"] for b in self._req("GET", "/books/") if b.get("subject") == subject]
+            book_id = max(found) if found else None
+        if not book_id:
+            sys.exit(f"책 생성 응답에서 번호를 찾지 못했습니다: {res}")
+        return {"id": book_id}
 
     def create_page(self, book_id, parent_id, subject, content):
         return self._req("POST", "/pages/create/", {"subject": subject, "content": content, "parent_id": parent_id,
@@ -203,9 +211,14 @@ def main():
 
     entries = flatten_nav(cfg["nav"])
     titles = {}
+    # 위키독스는 형제 페이지를 제목순으로 정렬하므로, 목차 순서대로 "01.", "01-02." 번호를 붙입니다.
+    numbers, seen = {}, {}
+    for key, _, _, parent in entries:
+        seen[parent] = seen.get(parent, 0) + 1
+        numbers[key] = (numbers[parent] + "-" if parent else "") + f"{seen[parent]:02d}"
     # 1단계: 없는 페이지를 목차 순서대로 만들어 번호를 확보합니다.
     for key, title, rel, parent in entries:
-        subject = title or read_doc(rel)[0]
+        subject = f"{numbers[key]}. " + (title or read_doc(rel)[0])
         titles[key] = subject
         if key not in m["pages"]:
             pid = api.create_page(m["book_id"], m["pages"].get(parent), subject, "작성 중입니다.")["id"]
