@@ -42,7 +42,7 @@ class Api:
     def __init__(self, token, dry_run):
         self.token, self.dry, self.fake_id = token, dry_run, 900000
 
-    def _req(self, method, path, body=None, files=None):
+    def _req(self, method, path, body=None, files=None, fatal=True):
         if self.dry:
             self.fake_id += 1
             return {"id": self.fake_id, "image_url": f"https://wikidocs.net/images/page/dry/{self.fake_id}.png"}
@@ -73,6 +73,8 @@ class Api:
                 msg = e.read().decode(errors="replace")[:300]
                 if e.code == 401:
                     sys.exit("토큰이 올바르지 않습니다(401). 위키독스에서 토큰을 다시 확인하세요.")
+                if not fatal:
+                    return None
                 if e.code in (429, 500, 502, 503) and attempt < 2:
                     time.sleep(3 * (attempt + 1))
                     continue
@@ -91,6 +93,10 @@ class Api:
         if not book_id:
             sys.exit(f"책 생성 응답에서 번호를 찾지 못했습니다: {res}")
         return {"id": book_id}
+
+    def update_book(self, book_id, summary):
+        """책 소개를 바꿉니다. 실패해도 멈추지 않고 None을 돌려줍니다."""
+        return self._req("PATCH", f"/books/{book_id}/", {"summary": summary}, fatal=False)
 
     def create_page(self, book_id, parent_id, subject, content):
         return self._req("POST", "/pages/create/", {"subject": subject, "content": content, "parent_id": parent_id,
@@ -185,6 +191,8 @@ def convert(rel, body, pages, images, api, page_id, dry):
         print(f"  ! 연결할 페이지 없음: {rel} → {target}")
         return text
 
+    # MkDocs 전용 속성({ width="..." })은 위키독스에서 글자로 보이므로 지웁니다.
+    body = re.sub(r"(!\[[^\]]*\]\([^)]+\))\{[^}]*\}", r"\1", body)
     return LINK_RE.sub(repl, body)
 
 
@@ -208,6 +216,11 @@ def main():
         m["book_id"] = api.create_book(cfg["site_name"], cfg.get("site_description", ""))["id"]
         print(f"책을 새로 만들었습니다: https://wikidocs.net/book/{m['book_id']}")
         save_map(m, args.dry_run)
+    elif not args.dry_run:
+        if api.update_book(m["book_id"], cfg.get("site_description", "")) is None:
+            print("! 책 소개를 바꾸지 못했습니다. 위키독스 책 설정에서 직접 바꿔 주세요.")
+        else:
+            print("= 책 소개 갱신")
 
     entries = flatten_nav(cfg["nav"])
     titles = {}
