@@ -94,9 +94,9 @@ class Api:
             sys.exit(f"책 생성 응답에서 번호를 찾지 못했습니다: {res}")
         return {"id": book_id}
 
-    def update_book(self, book_id, summary):
-        """책 소개를 바꿉니다. 실패해도 멈추지 않고 None을 돌려줍니다."""
-        return self._req("PATCH", f"/books/{book_id}/", {"summary": summary}, fatal=False)
+    def book_summary(self, book_id):
+        """현재 책 소개를 읽습니다. napi에는 책 정보를 수정하는 API가 없어(2026-10 기준) 비교만 합니다."""
+        return (self._req("GET", f"/books/{book_id}/", fatal=False) or {}).get("summary")
 
     def create_page(self, book_id, parent_id, subject, content):
         return self._req("POST", "/pages/create/", {"subject": subject, "content": content, "parent_id": parent_id,
@@ -217,10 +217,9 @@ def main():
         print(f"책을 새로 만들었습니다: https://wikidocs.net/book/{m['book_id']}")
         save_map(m, args.dry_run)
     elif not args.dry_run:
-        if api.update_book(m["book_id"], cfg.get("site_description", "")) is None:
-            print("! 책 소개를 바꾸지 못했습니다. 위키독스 책 설정에서 직접 바꿔 주세요.")
-        else:
-            print("= 책 소개 갱신")
+        want = cfg.get("site_description", "")
+        if api.book_summary(m["book_id"]) != want:
+            print(f"! 책 소개가 mkdocs.yml과 다릅니다. API로는 바꿀 수 없으니 위키독스 책 설정에서 직접 바꿔 주세요:\n  {want}")
 
     entries = flatten_nav(cfg["nav"])
     titles = {}
